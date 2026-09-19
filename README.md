@@ -1,5 +1,8 @@
 # pi-zai-usage
 
+[![npm version](https://img.shields.io/npm/v/pi-zai-usage.svg?color=blue)](https://www.npmjs.com/package/pi-zai-usage)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **[English](#what-it-is) | [简体中文](#中文说明)**
 
 > A [pi](https://pi.dev) extension that shows your **real server-side quota** for Zhipu GLM / Z.ai Coding Plans inline in the footer status bar.
@@ -38,11 +41,15 @@ Response `data.limits[]` (unit semantics from the z.ai frontend source):
 
 ## Install
 
-```bash
-# npm
-pi install npm:pi-zai-usage
+Install via **npm** (recommended):
 
-# or from GitHub
+```bash
+pi install npm:pi-zai-usage
+```
+
+Or install directly from **GitHub**:
+
+```bash
 pi install git:github.com/Feng-H/pi-zai-usage
 ```
 
@@ -63,6 +70,8 @@ Uses `ctx.ui.setFooter()` with a single-line layout `pwd  stats ···· model`;
 ---
 
 ## 中文说明
+
+[![npm version](https://img.shields.io/npm/v/pi-zai-usage.svg?color=blue)](https://www.npmjs.com/package/pi-zai-usage)
 
 > pi coding agent 扩展：在 footer 状态行内联显示智谱 GLM / Z.ai Coding Plan 的**真实服务端配额**。
 
@@ -98,15 +107,21 @@ Authorization: Bearer <api_key>
 
 `base` 按 provider 自动选择（`zai-coding-cn`/含 `bigmodel` → `open.bigmodel.cn`，否则 `api.z.ai`）。
 
-### 安装
+### 安装方式
+
+通过 **npm 官方镜像** 安装（推荐）：
 
 ```bash
-# npm
 pi install npm:pi-zai-usage
+```
 
-# git 源
+或者直接从 **GitHub** 安装：
+
+```bash
 pi install git:github.com/Feng-H/pi-zai-usage
 ```
+
+- npm 官方包页面：[https://www.npmjs.com/package/pi-zai-usage](https://www.npmjs.com/package/pi-zai-usage)
 
 ### 环境变量（可选）
 
