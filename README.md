@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/pi-zai-usage.svg?color=blue)](https://www.npmjs.com/package/pi-zai-usage)
 [![npm downloads](https://img.shields.io/npm/dt/pi-zai-usage.svg?color=green)](https://www.npmjs.com/package/pi-zai-usage)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![pi-package](https://img.shields.io/badge/pi-package-00b57a)](https://pi.dev/packages)
 
 **[English](#what-it-is) | [简体中文](#中文说明)**
 
@@ -71,9 +72,6 @@ Uses `ctx.ui.setFooter()` with a single-line layout `pwd  stats ···· model`;
 ---
 
 ## 中文说明
-
-[![npm version](https://img.shields.io/npm/v/pi-zai-usage.svg?color=blue)](https://www.npmjs.com/package/pi-zai-usage)
-[![npm downloads](https://img.shields.io/npm/dt/pi-zai-usage.svg?color=green)](https://www.npmjs.com/package/pi-zai-usage)
 
 > pi coding agent 扩展：在 footer 状态行内联显示智谱 GLM / Z.ai Coding Plan 的**真实服务端配额**。
 
