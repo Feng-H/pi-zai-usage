@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/Feng-H/pi-zai-usage.git"
   },
+  "bugs": {
+    "url": "https://github.com/Feng-H/pi-zai-usage/issues"
+  },
+  "homepage": "https://github.com/Feng-H/pi-zai-usage#readme",
   "files": [
     "extensions",
     "README.md"
